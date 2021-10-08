@@ -1,77 +1,55 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-
-    <title>Uvodna Hodina HTML</title>
+    <title>E-shop</title>
     <style>
-      article{
-        border: 2px solid black;
-        margin: 10px auto 10px auto;
-        padding: 40px;
-        max-width: 500px;
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            max-width: 500px;
+            margin: 50px auto 50px auto;
+            background-color: rgb(151, 235, 228);
         }
-        body{
-          text-align: center;
-          background-color: teal;
-          zoom: 200%;
-        }
-        h1{
-          font-size: 30px;
-          color: bisque
-        }
-        h2{
-          font-size: medium;
-          color: tomato
-        }
-        p{
-          color: #bada55
-        }
-            .pes{
-                max-width: 150px;
-                border: 2px solid yellow ;
-                border-radius: 50%;
-                  }
 
-                    .macka{
-                      max-width: 170px;
-                      border-radius: 50%;
-                      border: 2px solid yellow;
-                  }
-                  button{
-                       color: red;
-                       background-color: aqua;
-                  }
-                  li{
-                    text-align: left;
-                  }
+        h1,h2 {
+
+            text-align: center;
+            color: rgba(255, 50, 50, 0.822);
+        }
+
+        iframe {
+            max-width: 450px;
+        }
+
+        img {
+            max-width: 500px;
+            margin-top: 50px;
+            border-radius: 50%;
+            margin: 50px auto 50px auto;
+            border: 2px solid rgb(238, 79, 230);
+        }
+        .onas{
+            min-width: 500px;
+            min-height: 50px;
+            border: 3px solid green;
+            font-size: 30px;
+        }
+        button{
+        cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
-  
-  <article>
-<h1> Pes a mačka </h1> 
-    <h2>Domáci miláčikovia</h2>
-    <p lang="sk"> <i> Pes patrí s mačkami domacimi nielen k najstarším, ale aj k najvšestrannejším domácim zvieratám. Zo všetkých domácich zvierat existuje v najväčšej plemennej variabilite. Odhaduje sa, že človek vyšľachtil dodnes viac ako 400 rôznych plemien.</i></p>
-  </article>
-  <img class="pes" src="resources/images/pes1.jpg"  alt="pes" />
-  <img class="macka" src="resources/images/macka1.jpg"  alt="mačka">
-  <br> <br>
-  <button type="button" onclick="alert('Ahoj Svet')"> ťuknite ma </button>
-  <br> <br>
-    <a href="https://kacvinskysimon.wixsite.com/simonkacvinsky" target="blank">odkaz na moju stránku</a>
+    <h1>Eshop s elektronikou</h1>
+    <h2>Šimon Kacvinský, II.B, CGP</h2>
 
-     <ol>
-      <li>mrkva</li>
-      <li>muka</li>
-      <li>mlieko</li>
-    </ol>
-    <ul>
-      <li>mrkva</li>
-      <li>muka</li>
-      <li>mlieko</li>
-    </ul>
- </body>
-
+  <center><a href="televizory.html"> <button>televízory</button></a>
+    <a href="telefony.html"> <button>telefóny</button></a>
+    <a href="fotoaparaty.html"> <button>fotoaparáty</button></a>
+    <a href="notebooky.html"> <button>notebooky</button></a>
+    <a href="monitory.html"> <button>monitory</button></a></center>
+    <img src="resources/images/mainfotto.png" alt="">
+    <a href="O nas.html" target="_Blank"> <button class="onas">O nás</button></a>
+</body>
 </html>
