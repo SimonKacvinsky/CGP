@@ -4,16 +4,19 @@
     <title>Televízory</title>
     <style>
         body {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: 2px solid red;
             max-width: 850px;
             margin: 50px auto 50px auto;
-            zoom: 150%;
-            border: 2px solid red;
+            text-align: left;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             padding-left: 10px;
+            zoom: 150%;
         }
-        button{
+
+        button {
             cursor: pointer;
         }
+
         .tv1 {
             max-width: 250px;
             margin-left: 550px;
@@ -69,18 +72,36 @@
             margin-left: 610px;
         }
 
+        .a {
+            font-size: medium;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .b {
+            font-size: medium;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: rgba(65, 214, 98, 0.774);
+
+        }
+
         hr {
             background-color: red;
+        }
+
+        .ciara1 {
+            height: 1px;
         }
 
         .cena {
             margin-left: 630px;
             font-size: 20px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
         .hr1 {
             margin-top: 1px;
+            height: 1px;
             height: 1px;
         }
 
@@ -108,6 +129,14 @@
 </head>
 
 <body>
+    <center>
+        <a href="index.html"> <button class="a">domov</button></a>
+        <a href="televizory.html"> <button class="b">televízory</button></a>
+        <a href="telefony.html"> <button class="a">telefóny</button></a>
+        <a href="sluchadla.html"> <button class="a">slúchadlá</button></a>
+        <a href="notebooky.html"> <button class="a">notebooky</button></a>
+        <a href="monitory.html"> <button class="a">monitory</button></a>
+    </center>
     <h2 class="LG1"> <b>Televízor LG 65UP8100 sivá</b></h2>
     <img class="tv1" src="resources/images/tv1.jpg" alt="">
     <p><b class="popis">popis:</b>
@@ -117,13 +146,13 @@
         Navyše prináša aj geniálne funkcie systému webOS, vylepšený
         diaľkový ovládač alebo napríklad špeciálny filmový režim.
     </p>
-    <ul>
+    <ul><i>
         <li>65" (164 cm) 4K Ultra UHD Smart TV</li>
-        <li>rozlíšenie 3840 × 2160 px</li>
+        <li>rozlíšenie: 3840 × 2160 px</li>
         <li>Wi-Fi</li>
         <li>2× USB </li>
         <li>3× HDMI</li>
-    </ul>
+    </ul></i>
 
     <button class="T1" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')"> vložiť do košíka
     </button>
@@ -131,6 +160,7 @@
     <p class="cena">819,00€</p>
     <br>
     <hr>
+
 
 
     <h2 class="LG1"> <b>Televízor LG OLED48A1 čierna</b></h2>
@@ -144,19 +174,20 @@
     </p>
 
 
-    <ul>
+    <ul><i>
         <li>48" (121 cm) 4K Ultra UHD OLED TV </li>
-        <li>rozlíšenie 3840 × 2160 px </li>
+        <li>rozlíšenie: 3840 × 2160 px </li>
         <li>Wi-Fi</li>
         <li>2× USB </li>
         <li>2× HDMI</li>
-    </ul>
+    </ul></i>
     <button class="T1" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')"> vložiť do košíka
     </button>
     <br><br><br><br><br><br>
     <p class="cena">879,00 €</p>
     <br>
-    <hr class="hr1">
+    <hr>
+
 
     <h2 class="LG1"> <b>Televízor TCL 75C725 strieborná</b></h2>
     <img class="tv3" src="resources/images/tv3.jpg" alt="">
@@ -169,19 +200,24 @@
         Quantum Dot má na starosti reprodukciu veľmi širokých paliet farieb
         a 100 % farebný objem.
     </p>
-    <ul>
+    <ul><i>
         <li>75" (189 cm) 4K Ultra HD Smart TV</li>
-        <li>rozlíšenie 3840 × 2160 px </li>
+        <li>rozlíšenie: 3840 × 2160 px </li>
         <li>Wi-Fi</li>
         <li>Bluetooth </li>
         <li>3× HDMI</li>
-    </ul>
+    </ul></i>
     <button class="T1" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')"> vložiť do košíka
     </button>
     <br><br><br><br><br><br>
     <p class="cena">1 499,00 €</p>
     <br>
     <hr>
+
+
+
+
+
     <h2 class="LG1"> <b>Televízor Philips 65PUS7855 strieborná</b></h2>
     <img class="tv4" src="resources/images/tv4.jpg" alt="">
     <p><b class="popis">popis:</b>
@@ -190,13 +226,13 @@
         inteligentných funkcií. Bude vás rozmaznávať obrazovkou s veľkosťou 65 palcov, na ktorej sa o dychberúci zážitok
         stará špičkové rozlíšenie 4K Ultra HD spolu s OLED+ panelom pre bezkonkurenčne verné podanie farieb.
     </p>
-    <ul>
+    <ul><i>
         <li>65" (164 cm) 4K Ultra UHD Smart TV</li>
-        <li>rozlíšenie 3840 × 2160 px</li>
+        <li>rozlíšenie: 3840 × 2160 px</li>
         <li>Wi-Fi</li>
         <li>HDR10+</li>
         <li>3× HDMI</li>
-    </ul>
+    </ul></i>
     <button class="T1" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')"> vložiť do košíka
     </button>
     <br><br><br><br><br><br>
@@ -216,13 +252,13 @@
         Quantum Dot, ktorá umožňuje zobraziť až miliardu farebných odtieňov.
         Obrazovka má navyše ultraširokouhlé pozorovacie uhly.
     </p>
-    <ul>
+    <ul><i>
         <li>55" (138 cm) 4K QLED Smart TV</li>
-        <li>rozlíšenie 3840 × 2160 px</li>
+        <li>rozlíšenie: 3840 × 2160 px</li>
         <li>Wi-Fi</li>
         <li>3× USB </li>
         <li>4× HDMI</li>
-    </ul>
+    </ul></i>
     <button class="T3" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')"> vložiť do košíka
     </button>
     <br><br><br><br><br><br>
@@ -240,13 +276,13 @@
         zážitky ako zo špičkových kín.
     </p>
 
-    <ul>
+    <ul><i>
         <li>75" (190 cm) 4K Ultra UHD Smart TV</li>
-        <li>rozlíšenie 3840 × 2160 px</li>
+        <li>rozlíšenie: 3840 × 2160 px</li>
         <li>Wi-Fi</li>
         <li>2× USB </li>
         <li>3× HDMI</li>
-    </ul>
+    </ul></i>
     <button class="T2" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')"> vložiť do košíka
     </button>
     <br><br><br><br><br><br>
