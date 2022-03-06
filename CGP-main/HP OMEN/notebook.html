@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <title>notebook</title>
+    <link rel="stylesheet" href="css_notebook.css">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="navigacia">
+            <div>
+                <div class="nazov">
+                        <h1>ProElektro</h1>
+                </div>
+            </div>
+            <a href="../index.html">
+            <img src="resources/Images/ikona.png" alt="" class="logo">
+        </a>
+            <nav>
+                <ul>
+                    <div class="navigacne_menu">
+                        <a href="../ponuka_produktov/Televizory/Televizory.html" class="A1">
+                            <li class="zoznam">televízory</li>
+                        </a>
+                        <a href="../ponuka_produktov/Telefony/Telefony.html" class="A1">
+                            <li class="zoznam">telefóny</li>
+                        </a>
+                        <a href="../ponuka_produktov/Sluchadla/Sluchadla.html" class="A1">
+                            <li class="zoznam">slúchadlá</li>
+                        </a>
+                        <a href="../ponuka_produktov/Notebooky/Notebooky.html" class="A1">
+                            <li class="zoznam">notebooky</li>
+                        </a>
+                        <a href="../ponuka_produktov/Monitory/Monitory.html" class="A1">
+                            <li class="zoznam">monitory</li>
+                        </a>
+                        <a href="../O nas/O nas.html" class="A1">
+                            <li class="zoznam">O nás</li>
+                        </a>
+                    </div>
+
+                    <a href="">
+                        <li><img src="resources/Images/menu.png" alt="" class="ikona_menu"></li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <h1 class="nazov_produktu">HP Omen 15-ek1001nc 430C7EA</h1>
+    <div class="specifikacie">
+        <h3 class="popis1">Popis:</h3>
+        <div class="popis_text">
+            <p class="skalovatelny">Hľadáte kompaktný notebook s herným výkonom, ktorý zároveň pôsobí elegantným a uhladeným vzhľadom? OMEN
+                15 bol navrhnutý presne týmto spôsobom. Táto vlajková loď je po všetkých stránkach fascinujúce
+                zariadenie vybavené tými najvýkonnejšími komponentmi. Jednoducho skvelý dizajn a výkon bez kompromisov.
+                Presvedčte sa sami.</p>
+            <br>
+            <H3 class="spec">Špecifikácie:</H3>
+            <p>
+            <ul>
+                <li>uhlopriečka: 15.6"</li>
+                <li>rozlíšenie: 1920 × 1080 px</li>
+                <li>procesor: Intel Core i7-10750H</li>
+                <li>grafická karta: NVIDIA GeForce RTX 2060</li>
+                <li>úložisko:
+                    <ul>
+                        <li class="ulozisko1">SSD 256 GB</li>
+                        <li class="ulozisko1">HDD 256 GB</li><br>
+                    </ul>
+            </ul>
+
+            </p>
+        </div>
+
+    </div>
+    <div class="kosik">
+        <button class="button1" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')">Vložiť do
+            košíka</button>
+            <h3 class="cena_notebooku">1790 €</h3>
+    </div>
+
+    <div class="container">
+
+        <div class="image-container">
+            <div><img src="resources/Images/obrazok2.png" class="image1"></div>
+            <div class="image"><img src="resources/Images/5.jfif"></div>
+            <div class="image"><img src="resources/Images/4.jfif"></div>
+            <div class="image"><img src="resources/Images/2.jfif"></div>
+            <div class="image"><img src="resources/Images/3.jfif"></div>
+        </div>
+        <div class="popup-image">
+            <a href="../HP OMEN/notebook.html"><span>&times;</span></a>
+            <img src="resources/Images/obrazok2.png" alt="">
+
+        </div>
+        <div class="CHECKBOXY">
+            <label class="container_checkbox">Predĺženie záruky + 3 roky <span class="cena_nezlavnena">260,75€</span>
+                <span class="cena1">231,50€</span>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container_checkbox">Microsoft 365 Personal (12 mesiacov) + Xbox Games Pass (3 mes. pre Win10)
+                <span class="cena_nezlavnena">44,80€</span> <span class="cena2">38,90€</span>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container_checkbox">Internet Security (1 zariadenie, 1 rok) <span
+                    class="cena_nezlavnena">20,30€</span> <span class="cena3">17,30€</span>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container_checkbox">Poistenie na 2 roky proti rozbitiu a krádeži <span
+                    class="cena_nezlavnena">192,30€</span> <span class="cena4">151,70€</span>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+    <footer class="peta">
+        <p class="peta_text">Copyright © 2022 Šimon Kacvinský</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+
+
+        document.querySelector('popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

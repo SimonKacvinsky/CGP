@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>slúchadlá</title>
+    <link rel="stylesheet" href="css_sluchadla.css">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="navigacia">
+            <div>
+                <div class="nazov">
+
+                        <h1>ProElektro</h1>
+                </div>
+            </div>
+            <a href="../index.html">
+            <img src="resources/Images/ikona.png" alt="" class="logo"></a>
+            <nav>
+                <ul>
+                    <div class="navigacne_menu">
+                        <a href="../ponuka_produktov/Televizory/Televizory.html" class="A1">
+                            <li class="zoznam">televízory</li>
+                        </a>
+                        <a href="../ponuka_produktov/Telefony/Telefony.html" class="A1">
+                            <li class="zoznam">telefóny</li>
+                        </a>
+                        <a href="../ponuka_produktov/Sluchadla/Sluchadla.html" class="A1">
+                            <li class="zoznam">slúchadlá</li>
+                        </a>
+                        <a href="../ponuka_produktov/Notebooky/Notebooky.html" class="A1">
+                            <li class="zoznam">notebooky</li>
+                        </a>
+                        <a href="../ponuka_produktov/Monitory/Monitory.html" class="A1">
+                            <li class="zoznam">monitory</li>
+                        </a>
+                        <a href="../O nas/O nas.html" class="A1">
+                            <li class="zoznam">O nás</li>
+                        </a>
+                    </div>
+
+                    
+                        <li><img src="resources/Images/menu.png" alt="" class="ikona_menu"></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <h1 class="nazov_produktu">Niceboy Hive Pods 2</h1>
+    <div class="specifikacie">
+        <h3 class="popis1">Popis:</h3>
+        <div class="popis_text">
+            <p class="skalovatelny">Vitajte v dobe bezdrôtovej. Preč s nepríjemnými káblami, ktorým už dávno odzvonilo. Sú tu HIVE Pods 2,
+                ktoré sú navrhnuté tak, aby zvládli presne to, čo vy. Či ste aktívni športovci alebo radi počúvate hudbu
+                cestou do práce, nové HIVE Pods 2 oceníte vždy a všade. Slúchadlá majú dotykové ovládanie, vydržia až 35
+                hodín s nabíjacím puzdrom, prijímajú handsfree hovory a navyše sú aj vodeodolné.
+            </p>
+            <br>
+            <H3 class="spec">Špecifikácie:</H3>
+            <p>
+            <ul>
+                <li>výdrž batérie: 35 h</li>
+                <li>farba: čierna</li>
+                <li>hmotnosť: 43 g</li>
+                <li>stupeň krytia: IPX5</li>
+                <li>verzia Bluetooth: 5.0</li>
+            </ul>
+
+            </p>
+        </div>
+
+    </div>
+    <div class="kosik">
+        <button class="button1" type="button" onclick="alert('Produkt bol úspešne vložený do košíka.')">Vložiť do
+            košíka</button>
+        <h3 class="cena_sluchadiel">399 €</h3>
+    </div>
+
+    <div class="container">
+
+        <div class="image-container">
+            <div><img src="resources/Images/1.jfif" class="image1"></div>
+            <div class="podobrazky">
+                <div class="image"><img src="resources/Images/5.jfif"></div>
+                <div class="image"><img src="resources/Images/4.jfif"></div>
+                <div class="image"><img src="resources/Images/2.jfif"></div>
+                <div class="image"><img src="resources/Images/3.jfif"></div>
+            </div>
+        </div>
+        <div class="popup-image">
+            <a href="sluchadla.html "><span>&times;</span></a>
+            <img src="resources/Images/obrazok2.png" alt="">
+
+        </div>
+        <div class="CHECKBOXY">
+            <label class="container_checkbox">Predĺženie záruky + 3 roky <span class="cena_nezlavnena">260,75€</span>
+                <span class="cena1">231,50€</span>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container_checkbox">Poistenie na 2 roky proti rozbitiu a krádeži <span
+                    class="cena_nezlavnena">192,30€</span> <span class="cena4">151,70€</span>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+
+
+    <footer class="peta">
+        <p class="peta_text">Copyright © 2022 Šimon Kacvinský</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+
+
+        document.querySelector('popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

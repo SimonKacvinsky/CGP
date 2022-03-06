@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
+    margin: 50px auto 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(resources/Images/business-gb7b5500be_1920.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#Ikona {
+    max-width: 80px;
+}
+
+.menu {
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(resources/images/mainfotto.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    transition: transform .2s;
+    font-weight: bold;
+}
+
+.navigacia {
+    margin-top: -50px;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+
+
+.main{
+    text-indent: 75px;
+    margin-top: 200px;
+}
+.navigacne_menu{
+    width: 800px;
+    margin-left: 401.5px;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin-left: -264.8px;
+    padding-right: -20px;
+}
+.ikona_menu{
+    max-width: 30px;
+margin-top: -26px;
+margin-right: -50px;
+}
+nav {
+    flex: 1px;
+    text-align: right;
+}
+ul{
+    margin-left: -200px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nazov{
+    padding-left: 14px;
+    margin-bottom:auto;
+}
+.A1{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+
+
+.zoznam{
+    transition: all .5s ease;
+    margin-left: 50px;
+}
+.zoznam:hover{
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.doprava{
+    position: relative;
+    width:1200px;
+    height: auto;
+    left: 167;
+    top: 50;
+    margin-bottom: 70px;
+    }
+    .text{
+        position: relative;
+        left: 167;
+        width: 1200px;
+        background-color: azure;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+td, th{
+    border: 2px solid lightblue;
+}
+th{
+position: relative;
+left: 23;
+background-color: orange;
+}
+th, tr{
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+.tabulka{
+margin-left: 300px;
+
+}
+.dodavka{
+margin-left: 700px;
+margin-top: -400px;
+}
+.peta{
+    color: white;
+    font-size: 11px;
+    height: 25px;
+    font-weight: lighter;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-bottom: -50px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.peta_text{
+    position: relative;
+    top: 3.5px;
+    font-size: 11px;
+    
+}

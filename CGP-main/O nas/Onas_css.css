@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "Rowdies";
+    src: url(resources/fonts/Rowdies-Regular.ttf);
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
+    margin: 50px auto 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(resources/Images/pozadie.jpg);
+
+    background-position:center;
+    background-size: cover;
+}
+#Ikona {
+    max-width: 80px;
+    margin-left: 50px;}
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.menu {
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(resources/images/mainfotto.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    transition: transform .2s;
+    font-weight: bold;
+}
+.navigacia {
+    margin-top: -50px;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+.main{
+    text-indent: 75px;
+    margin-top: 200px;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+    transition: transform .2s;
+    margin-left: -265.5px;
+    margin-right: 480px;
+    padding-right: -20px;
+}
+.ikona_menu{
+    max-width: 30px ;
+margin-left: 30px;
+margin-top: -26px;
+margin-right: -50px;
+}
+nav {
+    flex: 1px;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: uppercase;
+
+}
+#nazov{
+    padding-left: 6.5px;
+    margin-bottom:auto;
+}
+.navigacne_menu{
+    width: 800px;
+    margin-left: -25px;
+}
+.A1{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+.A2{
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+button {
+    width: 250px;
+    color: black;
+    font-size: 17px;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bolder;
+    padding: 5px 1px 5px 1px;
+    background: azure;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.5s;
+    text-transform: uppercase;
+}
+.zoznam{
+    transition: transform 0.5s;
+}
+.zoznam:hover{
+    transform: scale(1.5);
+}
+.p1{
+    position: relative;
+    left: 115;
+    color: black;
+    text-align: left;
+    margin-left: -50px;
+    background-color: hsla(208, 100%, 97%, 0.8);
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.text_onas{
+    position: relative;
+    top: 170;
+    left: 370;
+    width: 600px;
+}
+
+.h1{
+    font-size: 100px;
+    font-family: rowdies, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 700px;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+    margin-top: -150px;
+}
+.historia{
+    font-size: 100px;
+    font-family: rowdies, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(169, 189, 83, 0.835);
+    width: 1050px;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+.zakladne_informacie{
+    font-size: 25px;
+}
+.udaje{
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.kontajner_udaje{
+    width: 780px;
+    background-color: aliceblue;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 365px;
+    border: 3px solid rgba(12, 7, 26, 0.603);
+    text-align: center;
+}
+.profilovka{
+    margin: -200px 0px 0px 500px;
+    width: 200px;
+    height: auto;
+  transform: rotate(90deg);
+  border: 2px black solid;
+  border-radius: 10px;
+
+}
+.formular_ikona{
+    position: relative;
+    top: 70;
+    left: 450;
+    width: 150px;
+    height: auto;
+}
+.formular{
+    position: relative;
+    left: 400;
+    text-align: left;
+    background-color: aliceblue;
+    width: 720px;
+    height: auto;
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 10px;
+    }
+    .submit_button{
+        background-color: rgba(59, 56, 56, 0.301);
+        width: 709px;
+        height: 35px;
+        border: black 2px solid;
+        cursor: pointer;
+        border-radius: 9px;
+        margin-left: -0.216px;
+        margin-top: -32px;
+    }
+    .farba{
+        background-color: rgba(59, 56, 56, 0.301);
+        border-radius: 5px;
+    }
+.cursor_pointer{
+    cursor: pointer;
+}
+.kontaktny_formular{
+    text-align: center;
+    margin-top: -140px;
+}
+fieldset{
+    width: 700px;
+    margin-left: 4px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+.novinky{
+    margin-top: -80px;
+}
+iframe{
+   position: relative;
+   left: 160;
+   top: 20;
+}
+.zoznamy{
+position: relative;
+left: 270;
+bottom: -40;
+
+    font-size: 10px;
+}
+textarea{
+    margin-bottom: 90px;
+}
+li{
+    list-style: none; 
+}
+.link{
+    color: rgb(185, 56, 56);
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link:visited{
+    color: blue;
+}
+.link{
+    color: black;
+}
+a.link:active{
+    background-color: greenyellow;
+}
+
+.mapa{
+    width: 800px;
+    height: 1185px;
+    background-color: aliceblue;
+    border: 2px solid black;
+
+    margin-left: 360px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+.poloha{
+    text-align: center;
+}
+.peta{
+    color: white;
+    font-size: 11px;
+    height: 25px;
+    font-weight: lighter;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-bottom: -50px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.peta_text{
+    position: relative;
+    top: 3.5px;
+    font-size: 11px;
+    
+}
+.li1{
+   margin-left: 80px;
+}
+.video{
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.video-div{
+    margin-top: 50px;
+}
+.h_video{
+    text-align: center;
+    font-size: 30px;
+}
+.audio-div{
+    position: relative;
+    top: 50;
+    left: 280;
+}
+.h_audio{
+position: relative;
+left: 80;
+}

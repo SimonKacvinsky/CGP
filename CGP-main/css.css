@@ -1,0 +1,421 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
+    margin: 50px auto 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(resources/images/pozadie1.jpg);
+
+}
+* {
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#Ikona {
+    max-width: 80px;
+}
+.cena1{
+    color: white;
+    text-decoration: line-through red 3px;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.zlavnene1{
+    margin-left: 310px;
+    font-size: 30px;
+    color: rgb(255, 230, 8);
+}
+
+.menu {
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(resources/images/mainfotto.png);
+    background-position:center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    transition: transform .2s;
+    font-weight: bold;
+}
+.vypredaj{
+    margin-left: 810px;
+    margin-top: -180px;
+    width: 600px;
+}
+.doprava{
+width: 600px;
+margin-top: 20px;
+float: right;
+margin-right: 20px;
+}
+
+.navigacia {
+    margin-top: -50px;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+.novinky{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+   color: rgb(2, 238, 255);
+    font-size: 3em;
+    margin-left: 70px;
+    margin-bottom: 10px;
+
+}
+#sortiment{
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: rgb(8, 161, 141);
+    font-weight: bolder;
+    margin-left: 48px;
+
+}
+.main{
+    text-indent: 75px;
+    margin-top: 200px;
+}
+.navigacne_menu{
+    width: 800px;
+    margin-left: 401.5px;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin-left: -264.8px;
+    padding-right: -20px;
+}
+.ikona_menu{
+    max-width: 30px;
+margin-top: -26px;
+margin-right: -50px;
+}
+nav {
+    flex: 1px;
+    text-align: right;
+}
+ul{
+    margin-left: -200px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nazov{
+    padding-left: 14px;
+    margin-bottom:auto;
+}
+.A1{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+.A2{
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.akcia{ 
+    margin-top: -200px;
+    float: left;
+    margin-left: 180px;
+    line-height: 60px;
+    margin-bottom: 100px;
+    
+} 
+button {
+    width: 250px;
+    color: black;
+    font-size: 17px;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bolder;
+    padding: 5px 1px 5px 1px;
+    background: azure;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.5s;
+    text-transform: uppercase;
+}
+.eshop_obrazok{
+    float: left;
+    transform: rotate(270deg);
+    margin-left: -300px;
+    width: 850px;
+    margin-right: -900px;
+    margin-top: -450px;
+    height: 200px;
+}
+.mobil{
+    width: 60px;
+    height: auto;
+    margin-left: 67px;
+    margin-top: -40px;
+}
+.notebook{
+    width: 160px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+.monitor{
+    width: 143px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: -40px;
+}
+.sluchadla{
+    width: 125.5px;
+    height: auto;
+    margin-left: 35px;
+    margin-top: -60px;
+}
+.fotak{
+    width: 150px;
+    height: 120px;
+    margin-left: 23px;
+    margin-top: -40px;
+}
+.telka{
+    width: 165.5px;
+    height: 112px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+/* button:hover{
+    transform: translateY(-5px);
+}
+.button1:hover,.button2:hover,.button3:hover,.button4:hover,.button5:hover{
+    transform: scale(1.2);
+} */
+
+.zoznam{
+    transition: all .5s ease;
+    margin-left: 50px;
+}
+.zoznam:hover{
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+.samsung:hover{
+    border:solid 2px rgb(36, 12, 12);
+    transform: scale(1.15);
+    background-color: rgba(45, 42, 46, 0.582);
+    cursor: pointer;
+
+}
+.omen:hover{
+    border:solid 2px rgb(36, 12, 12);
+    transform: scale(1.15);
+    background-color: rgba(45, 42, 46, 0.582);
+    cursor: pointer;
+}
+.AOC:hover{
+    border:solid 2px rgb(36, 12, 12);
+    transform: scale(1.15);
+    background-color: rgba(45, 42, 46, 0.582);
+    cursor: pointer;
+}
+.hive:hover{
+    border:solid 2px rgb(36, 12, 12);
+    transform: scale(1.15);
+    background-color: rgba(45, 42, 46, 0.582);
+    cursor: pointer;
+}
+.ALPHA:hover{
+    border:solid 2px rgb(36, 12, 12);
+    transform: scale(1.15);
+    background-color: rgba(45, 42, 46, 0.582);
+    cursor: pointer;
+}
+.QLED:hover{
+    border:solid 2px rgb(36, 12, 12);
+    transform: scale(1.15);
+    background-color: rgba(45, 42, 46, 0.582);
+    cursor: pointer;    
+}
+.samsung{
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+}
+.omen{
+    margin-top: -250px;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-left: 300px;
+    transition: transform 0.5s;
+}
+.AOC{
+    margin-top: -250px;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-left: 550px;
+    transition: transform 0.5s;
+}
+.HIVE{
+    margin-top: 70px;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    transition: transform 0.5s;
+}
+.ALPHA{
+    margin-top: -251px;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-left: 300px; 
+    transition: transform 0.5s;
+}
+.QLED{
+    margin-top: -250px;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-left: 550px; 
+    transition: transform 0.5s;
+}
+.stara_cena1{
+    text-decoration: line-through red;
+    color: rgb(255, 255, 255);
+
+}
+.nova_cena1{
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(231, 210, 22);
+}
+.stara_cena2{
+    text-decoration: line-through red;
+    color: rgb(255, 255, 255);
+
+}
+.nova_cena2{
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(231, 210, 22);
+}
+.stara_cena3{
+    text-decoration: line-through red;
+    color: rgb(255, 255, 255);
+
+}
+.nova_cena3{
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(231, 210, 22);
+}
+.stara_cena4{
+    text-decoration: line-through red;
+    color: rgb(255, 255, 255);
+
+}
+.nova_cena4{
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(231, 210, 22);
+}
+.stara_cena5{
+    text-decoration: line-through red;
+    color: rgb(255, 255, 255);
+    }
+
+.nova_cena5{
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    color: rgb(231, 210, 22);
+    }
+    .stara_cena6{
+        text-decoration: line-through red;
+        color: rgb(255, 255, 255);
+        }
+    
+    .nova_cena6{
+        font-size: 40px;
+        margin-top: -10px;
+        text-align: center;
+        color: rgb(231, 210, 22);
+        }
+a{
+    text-decoration: none;
+    color: white;
+}
+.pods2{
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.sony2{
+    margin-bottom: 65px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.AOC2{
+    margin-left: -10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.Samsung2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.omen2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+
+}
+.QLED2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.produkty{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.produkty3{
+   margin-top: 0px; 
+}
+.peta{
+    color: white;
+    font-size: 11px;
+    height: 25px;
+    font-weight: lighter;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-bottom: -50px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.peta_text{
+    position: relative;
+    top: 3.5px;
+    font-size: 11px;
+    
+}

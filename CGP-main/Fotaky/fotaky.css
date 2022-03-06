@@ -1,0 +1,365 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
+    margin: 50px auto 50px auto;
+    background: #fff;
+}
+.menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/Images/mainfotto.png);
+    color: white;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 4%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    transition: transform .2s;
+    font-weight: bold;
+}
+#Ikona {
+    max-width: 80px;
+    margin-left: 50px;}
+    * {
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navigacia {
+    margin-top: -50px;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+.main{
+    text-indent: 75px;
+    margin-top: 200px;
+}
+.logo {
+    width: 50px;
+    cursor: pointer;
+    transition: transform .2s;
+    margin-left: -265px;
+    margin-right: 426px;
+    padding-right: -20px;
+}
+
+.ikona_menu{
+    max-width: 30px ;
+margin-left: 30px;
+margin-top: -2px;
+margin-right: -50px;
+}
+nav {
+    flex: 1px;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: uppercase;
+
+}
+.nazov{
+    padding-left: 25px;
+    margin-bottom:auto;
+    transition: transform .2s;
+    margin-left: 50px;
+    color: white;
+}
+.navigacne_menu{
+    float:left;
+    
+}
+.A1{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+.A2{
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    width: 250px;
+    color: black;
+    font-size: 17px;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bolder;
+    padding: 5px 1px 5px 1px;
+    background: azure;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.5s;
+    text-transform: uppercase;
+}
+.zoznam{
+    transition: transform 0.5s;
+}
+.zoznam:hover{
+    transform: scale(1.5);
+}
+
+.image-container{
+    width:auto;
+    height: 100px;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    position: relative;
+    background: #fff;
+    width: 760px;
+    margin-left: -50px;
+
+}
+.container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+}
+.container .image-container .image{
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) ;
+    overflow: hidden;
+    cursor: pointer;
+}
+.container .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.container  .image-container .image:hover img{
+transform: scale(1.1);
+}
+.container .popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.container .popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.container .popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: -5px;
+    width: 550px;
+    object-fit: cover;
+}
+
+.image1{
+    width: 450px;
+    float: left;
+    margin-left: 110px;
+    margin-top: -350px;
+
+}
+.podobrazky{
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -60px;
+    display: flex;
+
+}
+.button1{
+    margin-left: 1050px;
+    margin-top: -80px;
+    height: 50px;
+    width:  300px;
+    background-color: rgb(109, 108, 104, 0.5);
+    font-weight: bolder;
+    letter-spacing: 4px;
+    transition: font-size 0.5s, background 0.5s, color 1s;    
+    text-align: center;
+    
+}
+img{
+    cursor: pointer;
+
+}
+.button1:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(123, 95, 224);
+    font-size: 20px;
+}
+.image{
+    margin-top: -20px;
+    margin-left: -147px;
+}
+.nazov_produktu{
+    background: #fff;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.specifikacie{
+    background: #fff;
+    margin-left: 225px;
+    max-width: 1200px;
+    font-size: 17px;
+
+}
+.spec{
+    margin-left: -10px;
+}
+.popis_text{
+font-size: 17px;
+    margin-left: 500px;
+}
+.popis1{
+    text-align: center;
+    margin-left: -150px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+@media(max-width:768px){
+    .container .popup-image img{
+        width: 95%;
+    }
+}
+
+.cena1, .cena2,.cena3,.cena4{
+    font-size: 23px;
+    font-weight:bold;
+    color: rgb(28, 151, 16);
+
+}
+.cena_nezlavnena{
+    color: grey;
+    font-size: 23px;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+.cena_fotaka{
+    color: rgb(206, 44, 44);
+    font-size: 35px;
+    margin-left: 1145px;
+    margin-top: -140px;
+}
+.kosik{
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.CHECKBOXY{
+    margin-left: 100px;
+    margin-top: -70px;
+    max-width: 700px;
+    color: rgb(39, 108, 173);
+
+}
+
+.container_checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container_checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container_checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container_checkbox input:checked ~ .checkmark:after {
+    display:block;
+  }
+  
+
+  .container_checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .peta{
+      position: relative;
+      bottom: -60;
+    color: white;
+    font-size: 11px;
+    height: 25px;
+    font-weight: lighter;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-bottom: -50px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.peta_text{
+    position: relative;
+    top: 3.5px;
+    font-size: 11px;
+    
+}
+.skalovatelny{
+    overflow: auto;
+    resize: both;
+}
